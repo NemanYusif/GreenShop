@@ -1,0 +1,64 @@
+{
+    "categories":[
+        {
+            "id":1,
+            "image":"/Categories/cat1.svg",
+            "name":"Fertilizer"
+        },
+        {
+            "id":2,
+            "image":"/Categories/cat2.svg",
+            "name":"Protective products and septic tanks"
+        },
+        {
+            "id":3,
+            "image":"/Categories/cat3.svg",
+            "name":"Planting material"
+        },
+        {
+            "id":4,
+            "image":"/Categories/cat4.svg",
+            "name":"Tools and equipment"
+        },
+        {
+            "id":5,
+            "image":"/Categories/cat5.svg",
+            "name":"Pots and planters"
+        }
+
+    ],
+    "sales":[
+        {
+            "id":1,
+            "image":"/Sales/sale1.svg",
+            "name":"Decorative forged bridge",
+            "price":500,
+            "salePrice":1000,
+            "saleprassents":50
+        },
+        {
+            "id":2,
+            "image":"/Sales/sale2.svg",
+            "name":"Flower basket",
+            "price":100,
+            "salePrice":150,
+            "saleprassents":34
+        },
+        {
+            "id":3,
+            "image":"/Sales/sale3.svg",
+            "name":"Aquarium lock",
+            "price":155,
+            "salePrice":200,
+            "saleprassents":25
+        },
+        {
+            "id":1,
+            "image":"/Sales/sale4.svg",
+            "name":"Secateurs",
+            "price":199,
+            "salePrice":240,
+            "saleprassents":17
+        }
+    ]
+}
