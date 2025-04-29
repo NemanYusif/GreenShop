@@ -1,8 +1,13 @@
 import React from 'react'
+import CategoriesComponent from '../../Components/Categories'
 
 const Categories = () => {
   return (
-    <div>Categories</div>
+    <>
+    <div>
+      <CategoriesComponent/>
+    </div>
+    </>
   )
 }
 

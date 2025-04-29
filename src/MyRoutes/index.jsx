@@ -4,8 +4,8 @@ import AllProducts from "../Pages/AllProducts";
 import AllSales from "../Pages/AllSales";
 import AboutProducts from "../Pages/AboutProduct";
 import ShopingCart from "../Pages/ShopingCards";
-import TandE from "../Pages/TandE";
 import NotFound from "../Pages/NotFound";
+import SelectedProducts from "../Pages/SelectedProducts"
 
 export const MyRoutes = [
 
@@ -47,8 +47,8 @@ export const MyRoutes = [
 },
 {
     id:7,
-    path:"/TandE",
-    element:<TandE />,
+    path:"/selectedProducts",
+    element:<SelectedProducts/>,
     title:"Terms and Conditions",
 },
 {

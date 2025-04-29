@@ -8,7 +8,7 @@ const MainPage = () => {
   return (
     <div>
       <HeroSection />
-      <CategoriesComponent/>
+      <CategoriesComponent allCategories={true} border={true}/>
       <Contacts/>
       <Sale/>
     </div>

@@ -1,64 +1,264 @@
 {
-    "categories":[
-        {
-            "id":1,
-            "image":"/Categories/cat1.svg",
-            "name":"Fertilizer"
-        },
-        {
-            "id":2,
-            "image":"/Categories/cat2.svg",
-            "name":"Protective products and septic tanks"
-        },
-        {
-            "id":3,
-            "image":"/Categories/cat3.svg",
-            "name":"Planting material"
-        },
-        {
-            "id":4,
-            "image":"/Categories/cat4.svg",
-            "name":"Tools and equipment"
-        },
-        {
-            "id":5,
-            "image":"/Categories/cat5.svg",
-            "name":"Pots and planters"
-        }
+  "categories": [
+    {
+      "id": 1,
+      "image": "/Categories/cat1.svg",
+      "name": "Fertilizer",
+      "category":"Fertilizer"
+    },
+    {
+      "id": 2,
+      "image": "/Categories/cat2.svg",
+      "name": "Protective products and septic tanks",
+      "category":"Protective"
+    },
+    {
+      "id": 3,
+      "image": "/Categories/cat3.svg",
+      "name": "Planting material",
+      "category":"planting"
+    },
+    {
+      "id": 4,
+      "image": "/Categories/cat4.svg",
+      "name": "Tools and equipment",
+      "category":"equipments"
+    },
+    {
+      "id": 5,
+      "image": "/Categories/cat5.svg",
+      "name": "Pots and planters",
+      "category":"planting"
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "image": "/Sales/sale1.svg",
+      "name": "Decorative forged bridge",
+      "price": 500,
+      "salePrice": 1000,
+      "saleprassents": 50
+    },
+    {
+      "id": 2,
+      "image": "/Sales/sale2.svg",
+      "name": "Flower basket",
+      "price": 100,
+      "salePrice": 150,
+      "saleprassents": 34
+    },
+    {
+      "id": 3,
+      "image": "/Sales/sale3.svg",
+      "name": "Aquarium lock",
+      "price": 155,
+      "salePrice": 200,
+      "saleprassents": 25
+    },
+    {
+      "id": 4,
+      "image": "/Sales/sale4.svg",
+      "name": "Secateurs",
+      "price": 199,
+      "salePrice": 240,
+      "saleprassents": 17
+    }
+  ],
+  "equipments": [
+    {
+      "id": 1,
+      "image": "/Categories/Equipments/e1.svg",
+      "header":"Tools and equipment",
+      "name": "Secateurs",
+      "category":"equipment",
+      "price": 5,
+      "salePrice": 50,
+      "salePercent": 52
 
-    ],
-    "sales":[
-        {
-            "id":1,
-            "image":"/Sales/sale1.svg",
-            "name":"Decorative forged bridge",
-            "price":500,
-            "salePrice":1000,
-            "saleprassents":50
-        },
-        {
-            "id":2,
-            "image":"/Sales/sale2.svg",
-            "name":"Flower basket",
-            "price":100,
-            "salePrice":150,
-            "saleprassents":34
-        },
-        {
-            "id":3,
-            "image":"/Sales/sale3.svg",
-            "name":"Aquarium lock",
-            "price":155,
-            "salePrice":200,
-            "saleprassents":25
-        },
-        {
-            "id":1,
-            "image":"/Sales/sale4.svg",
-            "name":"Secateurs",
-            "price":199,
-            "salePrice":240,
-            "saleprassents":17
-        }
-    ]
+    },
+    {
+      "id": 2,
+      "image": "/Categories/Equipments/e2.svg",
+      "name": "Collection for berries",
+      "category":"equipment",
+      "price": 5,
+      "salePrice": 50,
+      "salePercent": 52
+    },
+    {
+      "id": 3,
+      "image": "/Categories/Equipments/e3.svg",
+      "name": "Gloves (black)",
+      "category":"equipment",
+      "price": 5,
+      "salePrice": 50,
+      "salePercent": 50
+    },
+    {
+      "id": 4,
+      "image": "/Categories/Equipments/e4.svg",
+      "name": "Sickle-shaped hacksaw",
+      "category":"equipment",
+      "price": 5,
+      "salePrice": false    ,
+      "salePercent": false
+    },
+    {
+      "id": 5,
+      "image": "/Categories/Equipments/e5.svg",
+      "name": "Bayonet shovel",
+      "category":"equipment",
+      "price": 5,
+      "salePrice": false,
+      "salePercent": false
+    },
+    {
+      "id": 6,
+      "image": "/Categories/Equipments/e6.svg",
+      "name": "Garden pitchfork",
+      "category":"equipment",
+      "price": 5,
+      "salePrice": false,
+      "salePercent": false
+    },
+    {
+      "id": 7,
+      "image": "/Categories/Equipments/e7.svg",
+      "name": "Barbell",
+      "category":"equipment",
+      "price": 5,
+      "salePrice": false,
+      "salePercent": false
+    },
+    {
+      "id": 8,
+      "image": "/Categories/Equipments/e8.svg",
+      "name": "Souvenir thermometer",
+      "category":"equipment",
+      "price": 5,
+      "salePrice": 50,
+      "salePercent": 52
+    }
+  ],
+  "fertilizer": [
+    {
+      "id": 1,
+      "image": "/Categories/Fertilizer/f1.svg",
+      "header":"Fertilizer",
+      "name": "Fertilizer",
+      "category":"Fertilizer",
+      "price": 5,
+      "salePrice": 50,
+      "salePercent": 52
+    },
+    {
+      "id": 2,
+      "image": "/Categories/Fertilizer/f2.svg",
+      "name": "Fertilizer",
+      "category":"Fertilizer",
+      "price": 5,
+      "salePrice": 50,
+      "salePercent": 52
+    },
+    {
+      "id": 3,
+      "image": "/Categories/Fertilizer/f3.svg",
+      "name": "Fertilizer",
+      "category":"Fertilizer",
+      "price": 5,
+      "salePrice": 50,
+      "salePercent": 52
+    }
+  ],
+  "protective": [
+    {
+      "id": 1,
+      "image": "/Categories/Fertilizer/f1.svg",
+      "header":"Protective products and septic tanks",
+      "name": "Protective products and septic tanks",
+      "category":"protective",
+      "price": 5,
+      "salePrice": 50,
+      "salePercent": 52
+    },
+    {
+      "id": 2,
+      "image": "/Categories/Fertilizer/f2.svg",
+      "name": "Protective products and septic tankslizer",
+      "category":"protective",
+      "price": 5,
+      "salePrice": 50,
+      "salePercent": 52
+    },
+    {
+      "id": 3,
+      "image": "/Categories/Fertilizer/f3.svg",
+      "name": "Protective products and septic tankslizer",
+      "category":"protective",
+      "price": 5,
+      "salePrice": 50,
+      "salePercent": 52
+    }
+  ],
+  "planting": [
+    {
+      "id": 1,
+      "image": "/Categories/Fertilizer/f1.svg",
+      "header":"Planting material",
+      "name": "Planting material",
+      "category":"planting",
+      "price": 5,
+      "salePrice": 50,
+      "salePercent": 52
+    },
+    {
+      "id": 2,
+      "image": "/Categories/Fertilizer/f2.svg",
+      "name": "Planting material",
+      "category":"planting",
+      "price": 5,
+      "salePrice": 50,
+      "salePercent": 52
+    },
+    {
+      "id": 3,
+      "image": "/Categories/Fertilizer/f3.svg",
+      "name": "Planting material",
+      "category":"planting",
+      "price": 5,
+      "salePrice": 50,
+      "salePercent": 52
+    }
+  ],
+  "pots": [
+    {
+      "id": 1,
+      "image": "/Categories/Fertilizer/f1.svg",
+      "header":"Pots and planters",
+      "name": "Pots and planters",
+      "category":"planters",
+      "price": 5,
+      "salePrice": 50,
+      "salePercent": 52
+    },
+    {
+      "id": 2,
+      "image": "/Categories/Fertilizer/f2.svg",
+      "name": "Pots and planters",
+      "category":"planters",
+      "price": 5,
+      "salePrice": 50,
+      "salePercent": 52
+    },
+    {
+      "id": 3,
+      "image": "/Categories/Fertilizer/f3.svg",
+      "name": "Pots and planters",
+      "category":"planters",
+      "price": 5,
+      "salePrice": 50,
+      "salePercent": 52
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { data, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const URL = 'http://localhost:5000/sales/'
 

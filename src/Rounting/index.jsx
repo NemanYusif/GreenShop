@@ -1,6 +1,6 @@
 import React from "react";
 import { MyRoutes } from "../MyRoutes";
-import { Routes, Route, Router } from "react-router-dom";
+import { Routes, Route, } from "react-router-dom";
 const Routing = () => {
   return (
     <div>
