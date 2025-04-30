@@ -18,6 +18,7 @@ const FilterAllProducts = () => {
           "protective",
           "planting",
           "pots",
+          "sales"
         ];
         const responses = await Promise.all(
           categories.map((category) => axios.get(`${URL}/${category}`))
@@ -52,6 +53,8 @@ const FilterAllProducts = () => {
           <FilterPrice
             onPriceChange={setPriceRange}
             onDiscountChange={setDiscount}
+            hiddenDiscount={true}
+
           />
         </div>
       </div>

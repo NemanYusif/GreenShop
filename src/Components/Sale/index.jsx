@@ -30,14 +30,14 @@ const Sale = () => {
       <div className='flex gap-7  items-center justify-center '>
         {
             sale.length ? (
-                sale.map(({id,image,name,price,salePrice,saleprassents})=>{
+                sale.map(({id,image,name,price,salePrice,salePercent})=>{
                     return(
                  <div key={id} className='border-1 border-[#DDDDDD] rounded-sm flex flex-col gap-2 justify-center items-center'>
                 <div className='flex flex-col relative'>
                 <img className='w-full' src={image} alt="" />
                 <div className='bg-[#339933] absolute end-3 top-3 text-white rounded-md px-2
                  py-1 text-[13px] font-bold flex items-center justify-center '>
-                    -{saleprassents}%
+                    -{salePercent}%
                 </div>
                 </div>
                 

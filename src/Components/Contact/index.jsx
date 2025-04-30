@@ -1,6 +1,7 @@
 import React from 'react'
 import { TbBrandInstagramFilled } from "react-icons/tb";
 import { TbBrandWhatsappFilled } from "react-icons/tb";
+import { Link } from 'react-router-dom';
 
 
 const Contact = () => {
@@ -27,8 +28,12 @@ const Contact = () => {
         <div className='bg-[#F1F3F4] pl-6 rounded-md'>
             <p className='opacity-40 pt-6'>Social</p>
             <div className='flex gap-3 pt-2 pb-5'>
+            <Link target='_blank' to="https://www.instagram.com/">
             <TbBrandInstagramFilled className='text-4xl text-[#282828] opacity-90'/>
+            </Link>
+            <Link target='_blank' to="https://web.whatsapp.com/">
             <TbBrandWhatsappFilled className='text-4xl text-[#282828] opacity-90'/>
+            </Link>
             </div>
         </div>
         <div className='bg-[#F1F3F4] pl-6 rounded-md'>

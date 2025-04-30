@@ -37,32 +37,36 @@
       "image": "/Sales/sale1.svg",
       "name": "Decorative forged bridge",
       "price": 500,
+      "category":"sales",
       "salePrice": 1000,
-      "saleprassents": 50
+      "salePercent": 50
     },
     {
       "id": 2,
       "image": "/Sales/sale2.svg",
       "name": "Flower basket",
       "price": 100,
+      "category":"sales",
       "salePrice": 150,
-      "saleprassents": 34
+      "salePercent": 34
     },
     {
       "id": 3,
       "image": "/Sales/sale3.svg",
       "name": "Aquarium lock",
       "price": 155,
+      "category":"sales",
       "salePrice": 200,
-      "saleprassents": 25
+      "salePercent": 25
     },
     {
       "id": 4,
       "image": "/Sales/sale4.svg",
       "name": "Secateurs",
       "price": 199,
+      "category":"sales",
       "salePrice": 240,
-      "saleprassents": 17
+      "salePercent": 17
     }
   ],
   "equipments": [
