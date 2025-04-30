@@ -72,7 +72,7 @@
       "header":"Tools and equipment",
       "name": "Secateurs",
       "category":"equipment",
-      "price": 5,
+      "price": 563,
       "salePrice": 50,
       "salePercent": 52
 
@@ -82,7 +82,7 @@
       "image": "/Categories/Equipments/e2.svg",
       "name": "Collection for berries",
       "category":"equipment",
-      "price": 5,
+      "price": 14,
       "salePrice": 50,
       "salePercent": 52
     },
@@ -91,7 +91,7 @@
       "image": "/Categories/Equipments/e3.svg",
       "name": "Gloves (black)",
       "category":"equipment",
-      "price": 5,
+      "price": 52,
       "salePrice": 50,
       "salePercent": 50
     },
@@ -100,7 +100,7 @@
       "image": "/Categories/Equipments/e4.svg",
       "name": "Sickle-shaped hacksaw",
       "category":"equipment",
-      "price": 5,
+      "price": 24,
       "salePrice": false    ,
       "salePercent": false
     },
@@ -109,7 +109,7 @@
       "image": "/Categories/Equipments/e5.svg",
       "name": "Bayonet shovel",
       "category":"equipment",
-      "price": 5,
+      "price": 54,
       "salePrice": false,
       "salePercent": false
     },
@@ -118,7 +118,7 @@
       "image": "/Categories/Equipments/e6.svg",
       "name": "Garden pitchfork",
       "category":"equipment",
-      "price": 5,
+      "price": 575,
       "salePrice": false,
       "salePercent": false
     },
@@ -127,7 +127,7 @@
       "image": "/Categories/Equipments/e7.svg",
       "name": "Barbell",
       "category":"equipment",
-      "price": 5,
+      "price": 245,
       "salePrice": false,
       "salePercent": false
     },
@@ -136,7 +136,7 @@
       "image": "/Categories/Equipments/e8.svg",
       "name": "Souvenir thermometer",
       "category":"equipment",
-      "price": 5,
+      "price": 462,
       "salePrice": 50,
       "salePercent": 52
     }

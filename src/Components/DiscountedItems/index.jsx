@@ -1,22 +1,35 @@
-import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import FilterPrice from '../FilterPrice/'
 
-const URL = 'http://localhost:5000/sales/'
+const [discounted,setDiscounted]=useState([]);
 
-const Sale = () => {
-    const[sale,setSale]=useState([])
+const DiscountedItems = () => {
 
     useEffect(()=>{
+        const getall = async()=>{
+            try{
+                const allData = [
+                    "equipments",
+                    "fertilizer",
+                    "protective",
+                    "planting",
+                    "pots"
+                ]
+            }
+        }
+    })
 
-        axios.get(URL).then(({data})=>{
-            setSale(data)
-        })
-
-    },[])
   return (
-<>
-<div className='max-w-11/12 mx-auto pt-14'>
+    <>
+    <div className='mx-auto max-w-11/12'>
+        <h2 className='text-5xl font-bold pt-14 pb-10'>
+        Discounted items
+        </h2>
+        <div>
+            <FilterPrice/>
+        </div>
+    </div>
+    <div className='max-w-11/12 mx-auto pt-14'>
 <div className='pb-10 flex items-center justify-between  '>
       <h2 className='text-5xl font-bold '>
             Sale
@@ -59,8 +72,8 @@ const Sale = () => {
         }
       </div>
 </div>
-</>
+    </>
   )
 }
 
-export default Sale
+export default DiscountedItems

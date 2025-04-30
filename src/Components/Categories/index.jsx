@@ -14,12 +14,12 @@ const CategoriesComponent = ({ allCategories,border }) => {
   }, []);
   return (
     <>
-      <div className="pt-20 mx-auto max-w-11/12">
+      <div className="pt-14 mx-auto max-w-11/12">
         <div className="pb-10 flex items-center justify-between  ">
           <h2 className="text-5xl font-bold ">Categories</h2>
          {
           border && (
-            <div className="border-1 w-[73%] opacity-30"></div>
+            <div className="border-1 w-[70%] opacity-30"></div>
           )
          }
           {allCategories && (

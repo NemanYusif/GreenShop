@@ -13,10 +13,10 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="flex gap-5">
-          <Link to="/" className="focus:text-green-700 text-[1.2rem]">Main Page</Link>
-          <Link to="/categories" className="focus:text-green-700 text-[1.2rem]">Categories</Link>
-          <Link to='/allproducts' className="focus:text-green-700 text-[1.2rem]">All products</Link>
-          <Link to="/allSales" className="focus:text-green-700 text-[1.2rem]">All sales</Link>
+          <Link to="/" className="focus:text-green-700 text-[1.3rem]">Main Page</Link>
+          <Link to="/categories" className="focus:text-green-700 text-[1.3rem]">Categories</Link>
+          <Link to='/allproducts' className="focus:text-green-700 text-[1.3rem]">All products</Link>
+          <Link to="/allSales" className="focus:text-green-700 text-[1.3rem]">All sales</Link>
         </div>
         <div>
        <Link> <HiOutlineShoppingBag className="text-5xl hover:text-green-700"/></Link>
