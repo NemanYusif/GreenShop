@@ -1,6 +1,8 @@
 import React, { use, useEffect, useState } from "react";
 import FilterPrice from "../FilterPrice/";
 import axios from "axios";
+import AddToCartBtn from "../AddToCartBtn";
+import { Link } from "react-router-dom";
 const URL = "http://localhost:5000";
 
 const DiscountedItems = () => {
@@ -74,8 +76,11 @@ const DiscountedItems = () => {
                     key={`${category}${id}`}
                     className="border-1 border-[#DDDDDD] rounded-sm flex flex-col gap-2 justify-center items-center"
                   >
-                    <div className="flex flex-col relative">
+                    <div className="flex flex-col relative group">
+                      <Link to="/aboutProducts">
                       <img className="w-full" src={image} alt="" />
+                      </Link>
+                      <AddToCartBtn/>
                       {salePercent > 0 && (
                         <div
                           className="bg-[#339933] absolute end-3 top-3 text-white rounded-md px-2

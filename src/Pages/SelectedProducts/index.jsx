@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import AddToCartBtn from "../../Components/AddToCartBtn";
 
 const URL = "http://localhost:5000/";
 
@@ -30,8 +31,9 @@ const SelectedProducts = () => {
                     key={id}
                     className="border-1 border-[#DDDDDD] rounded-sm flex flex-col gap-2 justify-center items-center"
                   >
-                    <div className="flex flex-col relative">
+                    <div className="flex flex-col relative group">
                       <img className="w-full" src={image} alt="" />
+                      <AddToCartBtn/>
                       {salePercent > 0 && (
                         <div
                           className="bg-[#339933] absolute end-3 top-3 text-white rounded-md px-2

@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import AddToCartBtn from '../AddToCartBtn'
 
 const URL = 'http://localhost:5000/sales/'
 
@@ -23,7 +24,7 @@ const Sale = () => {
         </h2>
         <div className='border-1 w-[85%] opacity-30' >
         </div>
-        <Link className='opacity-40 border-1 p-1 pr-3 pl-3 rounded-md text-base'>
+        <Link to="/allSales" className='opacity-40 border-1 p-1 pr-3 pl-3 rounded-md text-base'>
         All Sales
         </Link>
       </div>
@@ -33,8 +34,9 @@ const Sale = () => {
                 sale.map(({id,image,name,price,salePrice,salePercent})=>{
                     return(
                  <div key={id} className='border-1 border-[#DDDDDD] rounded-sm flex flex-col gap-2 justify-center items-center'>
-                <div className='flex flex-col relative'>
+                <div className='flex flex-col relative group '>
                 <img className='w-full' src={image} alt="" />
+                <AddToCartBtn/>
                 <div className='bg-[#339933] absolute end-3 top-3 text-white rounded-md px-2
                  py-1 text-[13px] font-bold flex items-center justify-center '>
                     -{salePercent}%

@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import FilterPrice from "../FilterPrice";
+import AddToCartBtn from "../AddToCartBtn";
 
 const URL = "http://localhost:5000";
 
@@ -54,7 +55,6 @@ const FilterAllProducts = () => {
             onPriceChange={setPriceRange}
             onDiscountChange={setDiscount}
             hiddenDiscount={true}
-
           />
         </div>
       </div>
@@ -77,8 +77,9 @@ const FilterAllProducts = () => {
                     key={`${category}${id}`}
                     className="border-1 border-[#DDDDDD] rounded-sm flex flex-col gap-2 justify-center items-center"
                   >
-                    <div className="flex flex-col relative">
-                      <img className="w-full" src={image} alt="" />
+                    <div className="flex flex-col relative items-center group">
+                      <img className="w-full object-cover " src={image} alt="" />
+                      <AddToCartBtn />
                       {salePercent > 0 && (
                         <div
                           className="bg-[#339933] absolute end-3 top-3 text-white rounded-md px-2
@@ -87,6 +88,7 @@ const FilterAllProducts = () => {
                           -{salePercent}%
                         </div>
                       )}
+                      
                     </div>
 
                     <div>
